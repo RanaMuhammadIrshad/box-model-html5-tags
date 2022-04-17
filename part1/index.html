@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML5 tags</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--
+      The <header> HTML element represents introductory content or navigational aids. 
+      It may contain some heading elements but also a logo, a search form, and other elements.
+    -->
+      <header>
+        <div class="logo">
+          <img src="images/leafLogo.png" alt="leaf logo" />
+        </div>
+
+        <nav>
+          <!-- contains navigation links -->
+          <ul>
+            <li><a href="about.html">About </a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- main specifies the main content of the document -->
+      <main>
+        <h1>HTML5 tags</h1>
+
+        <!-- 
+            'section' represents a standalone section of content 
+            A section should always contain a heading
+        -->
+        <section>
+          <!-- should always contain a heading -->
+          <h2>Everything is a box</h2>
+          <hr />
+
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
+            maxime nihil eum tempora, asperiores exercitationem sint. Quos,
+            labore, molestiae, expedita aspernatur placeat quam voluptatem ea
+            cum ullam tempora nesciunt ad.
+          </p>
+        </section>
+
+        <section>
+          <!-- should always contain a heading -->
+          <h2>Main Content</h2>
+
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
+            maxime nihil eum tempora, asperiores exercitationem sint. Quos,
+            labore, molestiae, expedita aspernatur placeat quam voluptatem ea
+            cum ullam tempora nesciunt ad.
+          </p>
+        </section>
+
+        <section>
+          <!-- the article represents an independent content (eg news article or a blog post)-->
+          <article class="article">
+            <img
+              src="https://picsum.photos/id/1015/250/250"
+              alt="nasa image from outer space"
+            />
+            <h3>We sold up our stuff to travel the world</h3>
+            <p>
+              The couple's first stop was Riga, the capital of Latvia. "We had
+              been there before and we loved the city; it was affordable, small
+              and comfortable," says Nieto Carvajal. On previous visits, they'd
+              also made connections at a co-working space called TechHub, which
+              made settling in easier. Before long, the couple headed on to
+              Berlin, and soon they were hooked on the thrill of exploring a new
+              place, and what Nieto Carvajal calls the "freedom" of not being
+              tied down.
+            </p>
+          </article>
+
+          <article class="article">
+            <img
+              src="https://picsum.photos/id/1015/250/250"
+              alt="nasa image from outer space"
+            />
+            <h3>Living off the grid in 3 easy steps</h3>
+            <p>
+              The couple's first stop was Riga, the capital of Latvia. "We had
+              been there before and we loved the city; it was affordable, small
+              and comfortable," says Nieto Carvajal. On previous visits, they'd
+              also made connections at a co-working space called TechHub, which
+              made settling in easier. Before long, the couple headed on to
+              Berlin, and soon they were hooked on the thrill of exploring a new
+              place, and what Nieto Carvajal calls the "freedom" of not being
+              tied down.
+            </p>
+          </article>
+        </section>
+
+        <section>
+          <p>
+            My family and I visited The Epcot center this summer. The weather
+            was nice, and Epcot was amazing! I had a great summer together with
+            my family!
+          </p>
+          <!-- 
+                'aside' represents a portion of the document whose content is only 
+                indirectly related to the documents main content (a side note, "trial version is ending", "promotion ends soon")
+                -->
+          <aside id="epcotCenter">
+            <h4>Epcot Center</h4>
+            <p>
+              Epcot is a theme park at Walt Disney World Resort featuring
+              exciting attractions, international pavilions, award-winning
+              fireworks and seasonal special events.
+            </p>
+          </aside>
+        </section>
+      </main>
+
+      <footer>
+        <p>Some footer stuff</p>
+      </footer>
+    </div>
+  </body>
+</html>

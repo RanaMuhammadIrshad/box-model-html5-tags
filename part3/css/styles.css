@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo {
+  width: 50px;
+  display: inline-block;
+}
+
+.logo img {
+  width: inherit; /* inherits size from parent element */
+}
+
+nav {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 1rem;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  background-color: #056526;
+  text-decoration: none;
+  color: white;
+  padding: 0.2rem;
+  border-radius: 10px;
+}
+
+/* lvha */
+nav li a:visited {
+  background-color: lightcyan;
+  color: black;
+}
+
+nav li a:hover {
+  background-color: orange;
+  color: black;
+}
+
+nav li a:active {
+  background-color: red;
+}
